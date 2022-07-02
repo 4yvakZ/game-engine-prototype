@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\GLAD\src\glad.c" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -81,7 +82,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\game-engine-prototype\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\game-engine-prototype\GLAD\include;D:\game-engine-prototype\SDL2\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\game-engine-prototype\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
